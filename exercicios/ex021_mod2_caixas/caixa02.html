@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouoing tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 255, 255);
+            color: white;            
+            margin: 0px;
+            
+        }
+
+        
+        header{
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 12px;
+        }
+
+        nav {
+            background-color: rgb(64, 0, 77);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(234, 180, 255, 0.664);
+            border-radius: 3px;
+        }
+
+        nav>a{
+
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: normal;
+            margin-right: 30px;
+                    
+        }
+
+        main{
+            background-color: rgb(160, 69, 245);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 12px 2px;
+        }
+
+        article{
+            background-color: rgb(181, 122, 236);
+            padding: 5px;
+            border-radius: 12px;
+        }
+
+        
+        article>aside{
+            background-color: blueviolet;
+            margin: 0px;
+            border-radius: 12px;
+        }
+
+        footer{
+            background-color: khaki;
+            color: blueviolet;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            font-size: 12px;
+            border-radius: 12px;
+        }
+
+        footer>p{
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: khaki;
+            border-radius: 50%;
+            box-shadow: 2px 2px 4px 1px rgba(234, 180, 255, 0.664);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="=assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, sapiente. Laborum inventore ut, nihil minima tempora aliquid perspiciatis dolorem voluptatum eveniet enim quas adipisci voluptas soluta molestiae culpa laboriosam nemo!</p> 
+                <aside>
+                    <p>Artigo escrito por João</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Desenvolvido pelo cursoemvideo
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
