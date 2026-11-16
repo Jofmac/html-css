@@ -18,15 +18,41 @@ header{
     background-color: rgba(128, 128, 128, 0.616);
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     border: 2px dotted palevioletred;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 2px dotted palevioletred;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
+
+header > nav > a {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: rgb(236, 29, 143);
+    transition: 0.5s;
+}
+
 main {
     background-color: white;
     margin: 10px;
