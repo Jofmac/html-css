@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+header {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: plum;
+    color: white;
+    
+}
+
+section.normal {
+    padding: 20px;
+}
+
+section.Flex-content {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(230, 228, 229);
+    border-radius: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+footer {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: plum;
+    color: white;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+    border: 2px dotted rgb(4, 220, 248);
+    border-radius: 20px;
+}
+
+article > div.media {
+    flex: 1 1 500px;
+    border: 2px dotted rgb(248, 4, 175);
+    border-radius: 20px;
+}
+
+div.media > img {
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    padding: 0px 20px;
+    width: 90%;
+}
